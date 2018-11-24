@@ -8,6 +8,6 @@ Once the wep-key has been extracted - it then decrypts the .pcap file completly.
 
 ![Screenshot1](Screenshot1.PNG)
 
-![Screenshot2](Screenshot2.PNG)
+![Screenshot0](Screenshot0.PNG)
 
 
