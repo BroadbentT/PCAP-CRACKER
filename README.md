@@ -1,5 +1,5 @@
 # PCAP-CRACKER
-A simple bash file to decrypt encrypted IEEE (802.11) Radio .pcap files captured using Wireshark.
+A simple bash file to decrypt encrypted IEEE (802.11) Radio .pcap files captured via Wireshark.
 The bash-file first extracts the SSID, and then uses it to obtain the WEP key.
 Once the Wep has been extracted - it will decrypt the .pcap file completly.
 
