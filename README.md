@@ -8,7 +8,6 @@ Once the wep-key has been extracted - it then decrypts the .pcap file completly.
 
 Bonus!! now includes automated username/password/objects export.
 
-![Screenshot1](Image1.PNG)
 ![Screenshot2](Image2.PNG)
 
 
