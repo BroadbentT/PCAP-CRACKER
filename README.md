@@ -1,6 +1,6 @@
 # PCAP-CRACKER
 
-python pcap-cracker.sh wiresharkfile.pcap
+python pcap-cracker.py WireSharkFile.pcap
 
 A simple python file to decrypt encrypted IEEE (802.11) Radio .pcap files captured via Wireshark.
 The script file first extracts the SSID, and then uses it to obtain the WEP key.
