@@ -102,8 +102,7 @@ else:
 # -------------------------------------------------------------------------------------
 
 typetest = filename[-6:]
-newfiletype = filename[:-6]
-newfiletype = newfiletype + "pcap"
+newfiletype = filename[:-2]
 
 if typetest == "pcapng":
 	print "Converting file from pcapng to pcap...\n"
