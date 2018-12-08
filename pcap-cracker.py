@@ -79,10 +79,13 @@ if os.path.isfile("/usr/sbin/airmon-ng") != 1:
 
 if os.path.isfile('/usr/bin/tshark') != 1:
     print "Installing tshark...\n"
-    os.system("add-apt-repositorty ppa:dreibh/ppa")
-    os.system("apt-get install wireshark")
     os.system("apt-get install tshark")
-    installed=1
+    installed = True
+
+if os.path.isfile('/usr/bin/editcap') !=1:
+    print "Installing wireshark...\n"
+    os.system("apt-get install wireshark")
+    installed = True
 
 if installed == 0:
     print "\nAll required dependencies are pre-installed...\n"
