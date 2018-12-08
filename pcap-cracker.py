@@ -140,6 +140,10 @@ temp=open("SSID.txt","w")
 file.write (temp, ssid)
 file.close(temp)
 
+if ssid == "00:":
+    os.remove("./SSID.txt")
+    exit (True)
+
 # -------------------------------------------------------------------------------------
 # AUTHOR: Terence Broadbent                                                    
 # CONTRACT: SME                                                               
