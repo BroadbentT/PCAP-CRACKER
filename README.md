@@ -1,6 +1,6 @@
 # PCAP-CRACKER
 
-python pcap-cracker.py WireSharkFile.pcap
+python pcap-cracker.py wiresharkfile.pcap
 
 
 Python script file to decrypt encrypted IEEE (802.11) Radio .pcap files captured via Wireshark.
