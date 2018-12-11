@@ -138,8 +138,8 @@ print ""
 
 with open('SSID.txt', 'r') as myfile:
     ssid = myfile.read().replace('\n', '')
-
 os.remove('./SSID.txt')
+
 ssid = "00:" + ssid
 
 if ssid == "00:":
