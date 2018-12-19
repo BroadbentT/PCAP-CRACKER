@@ -132,9 +132,9 @@ if os.path.isfile('./Fixerror.pcap') !=0:
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-print ""
+print('-' * 100)
 os.system("tcpdump -ennr " + filename + " '(type mgt subtype beacon)' | awk '{print $13}' | sed 's/[()]//g;s/......//' | sort | uniq > SSID.txt")
-print ""
+print('-' * 100)
 
 with open('SSID.txt', 'r') as myfile:
     ssid = myfile.read().replace('\n', '')
