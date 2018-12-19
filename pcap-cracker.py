@@ -89,7 +89,6 @@ else:
 
 typetest = filename[-6:]
 newfiletype = filename[:-2]
-
 if typetest == "pcapng":
     print "Converting file from pcapng to pcap...\n"
     os.system("editcap -F pcap " + filename + " " + newfiletype + " > /dev/null")
@@ -104,7 +103,6 @@ if typetest == "pcapng":
 # -------------------------------------------------------------------------------------
 
 os.system("pcapfix -d " + filename + " -o Fixerror.pcap > /dev/null")
-
 if os.path.isfile('./Fixerror.pcap') !=0:
     os.rename(filename, "Oldpcapfile.pcap")
     os.rename("Fixerror.pcap", filename)
@@ -123,10 +121,8 @@ os.system("tcpdump -ennr " + filename + " '(type mgt subtype beacon)' | awk '{pr
 print ""
 with open('SSID.txt', 'r') as myfile:
     ssid = myfile.read().replace('\n', '')
-
 os.remove('./SSID.txt')
 ssid = "00:" + ssid
-
 if ssid == "00:":
     exit (True)
 else:
@@ -149,7 +145,6 @@ os.system("cat Key3.txt | tr -d ' \t\n\r' > WepKey.txt")
 os.remove('./Key.txt')
 os.remove('./Key2.txt')
 os.remove('./Key3.txt')
-
 with open('WepKey.txt', 'r') as myfile:
     wep = myfile.read().replace('\n', '')
 
