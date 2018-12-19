@@ -43,13 +43,10 @@ print "                 BY TERENCE BROADBENT BSC CYBER SECURITY (FIRST CLASS)   
 if os.geteuid() != 0:
     print "\nPlease run this python script as root..."
     exit(True)
-
 if len(sys.argv) < 2:
     print "\nUse the command python pcap-cracker.py wiresharkfile.pcapng\n"
     exit(True)
-
 filename = sys.argv[1]
-
 if os.path.exists(filename) == 0:
     print "\nFile " + filename + " was not found, did you spell it correctly?"
     exit(True)
