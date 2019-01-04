@@ -8,4 +8,5 @@ Once the WEP key has been extracted - it then decrypts the .pcap file completly 
 
 Bonus!! now includes automated username, password and object exporter.
 
+## CONSOLE DISPLAY
 ![Screenshot](picture0.png) 
