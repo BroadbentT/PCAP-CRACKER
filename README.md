@@ -4,7 +4,7 @@ python pcap-cracker.py monitored.pcapng
 
 | LANGUAGE | FILENAME | COMMAND |
 |--------  |--------- |---------|
-| python | pcap-cracker.py | monitored.pcp |
+| python | pcap-cracker.py | monitored.pcap |
 | |MD5 Hash - b0e0e3cbbba896ed1f56b75356726723 |
 
 Python script file to decrypt encrypted IEEE (802.11) Radio .pcap files captured via Wireshark. 
@@ -14,4 +14,4 @@ Once the WEP key has been extracted - it then decrypts the .pcap file completly 
 Bonus!! now includes automated username, password and object exporter.
 
 ## CONSOLE DISPLAY
-![Screenshot](picture0.png) 
+![Screenshot](picture1.png) 
