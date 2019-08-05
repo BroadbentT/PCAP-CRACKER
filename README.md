@@ -1,5 +1,7 @@
 # PCAP-CRACKER
 
+A python script file that cracks IEEE encrypted .pcap files, captured via Wireshark, and then extracts any pertinant encapsulated data.
+
 Usage: python pcap-cracker.py monitored.pcapng
 
 | LANGUAGE | FILENAME | MD5HASH |
