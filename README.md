@@ -1,6 +1,6 @@
 # PCAP-CRACKER
 
-python pcap-cracker.py monitored.pcapng
+Usage: python pcap-cracker.py monitored.pcapng
 
 | LANGUAGE | FILENAME | COMMAND |
 |--------  |--------- |---------|
