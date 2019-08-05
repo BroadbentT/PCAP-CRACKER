@@ -14,4 +14,4 @@ Usage: python pcap-cracker.py monitored.pcapng
 Bonus!! now includes automated username, password and object exporter.
 
 ## CONSOLE DISPLAY
-![Screenshot](picture2.png) 
+![Screenshot](picture3.png) 
