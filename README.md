@@ -1,5 +1,5 @@
 # PCAP CRACKER
-## PYTHON SCRIPT FILE TO DECRYPT ENCRYPTED IEEE (802.11) RADIO .PCAP FILES.
+## A PYTHON SCRIPT FILE TO DECRYPT ENCRYPTED IEEE (802.11) RADIO PCAP FILES CAPTURED VIA WIRESHARK.
 
 A python script file to decrypt encrypted IEEE (802.11) Radio .pcap files captured via Wireshark. 
 The script first extracts the Service Set IDentifier (SSID), and uses it to obtain the Wired Equivalent Privacy (WEP) key.
