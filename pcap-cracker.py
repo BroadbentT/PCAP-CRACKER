@@ -65,11 +65,11 @@ if len(sys.argv) < 2:
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-checklist = [ "airmon-ng", "tshark", "editcap" ]# ,"pcapfix"]
+checklist = [ "airmon-ng", "tshark", "editcap" ,"pcapfix"]
 installed = True
 
 for check in checklist:
-    cmd = "locate " + check + " > /dev/null"
+    cmd = "find / -name " + check + " > /dev/null"
     checked = os.system(cmd)
     if checked != 0:
         print check + " is missing..."
