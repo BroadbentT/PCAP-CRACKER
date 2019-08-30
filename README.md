@@ -7,10 +7,10 @@ Once the WEP key has been extracted - it then decrypts the .pcap file completly 
 
 Usage: python pcap-cracker.py monitored.pcapng
 
-| LANGUAGE | FILENAME          | MD5 HASH                         |
-|--------  |---------          |---------                         |
-| python   | pcap-cracker.py   | 512375beb41e93bc213c3b5fa3afb0e4 |
-| zip      | Wiresharkfile.zip | 8e2d9661621cf49a04dc2cb2064161ae |
+| LANGUAGE | FILENAME          | MD5 HASH                         | CONTAINS         |
+|--------  |---------          |---------                         |                  |
+| python   | pcap-cracker.py   | 512375beb41e93bc213c3b5fa3afb0e4 |                  |
+| zip      | Wiresharkfile.zip | 8e2d9661621cf49a04dc2cb2064161ae | Monitored.pcapng |
 
 Bonus!! now includes automated username, password and object exporter.
 
