@@ -106,13 +106,13 @@ if typetest == "pcapng":
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
 
-os.system("pcapfix -d '" + filename + "' -o Fixerror.pcap > /dev/null"
+os.system("pcapfix -d '" + filename + "' -o Fixerror.pcap > /dev/null")
 
 if os.path.isfile('./Fixerror.pcap') !=0:
-    os.rename(filename, "Oldpcapfile.pcap")
-    os.rename("Fixerror.pcap", filename)
-    print "Crack Status      : Fixing file errors.." + filename
-    print "Orginal Renamed   : Oldpcapfile.pcap" 
+   os.rename(filename, "Oldpcapfile.pcap")
+   os.rename("Fixerror.pcap", filename)
+   print "Crack Status      : Fixing file errors.." + filename
+   print "Orginal Renamed   : Oldpcapfile.pcap" 
 
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
