@@ -1,18 +1,61 @@
 # PCAP CRACKER
-## A PYTHON SCRIPT FILE TO DECRYPT ENCRYPTED IEEE (802.11) RADIO .PCAP FILES CAPTURED VIA WIRESHARK FOR EXTRACTION AND ANALYSIS.
 
-Usage: python pcap-cracker.py monitored.pcapng
+*A Python-based tool for analysing IEEE 802.11 wireless network captures (.PCAP / .PCAPNG) collected using Wireshark.*
 
-| LANGUAGE | FILENAME          | MD5 HASH                         | CONTAINS         |
-|--------  |---------          |---------                         | -------          |
-| python   | pcap-cracker.py   | 13eb88a6e9cc879b16a87b5a934ffad3 |                  |
-| zip      | Wiresharkfile.zip | 8e2d9661621cf49a04dc2cb2064161ae | monitored.pcapng |
+<p align="center">
+  <img src="https://github.com/BroadbentT/PCAP-CRACKER/blob/master/PCAP%20Cracker_%20Cyber%20Network%20Analysis.png" width="100%" alt="PCAP Cracker Cyber Network Analysis Banner">
+</p>
 
-A python script file to decrypt encrypted IEEE (802.11) Radio .pcap files captured via Wireshark. 
-The script first extracts the Service Set IDentifier (SSID), and uses it to obtain the Wired Equivalent Privacy (WEP) key.
-Once the WEP key has been extracted - it then decrypts the .pcap file completly (Cracked.pcap).
+---
 
-__Bonus!! now includes automated username, password and object exporter.__
+## PROJECT INFORMATION
 
-### CONSOLE DISPLAY
-![Screenshot](picture1.png) 
+**Usage:**
+```bash
+python pcap-cracker.py monitored.pcapng
+```
+
+| LANGUAGE | FILENAME | MD5 HASH | CONTAINS |
+|---|---|---|---|
+| Python 3 | `pcap-cracker.py` | `13eb88a6e9cc879b16a87b5a934ffad3` | |
+| ZIP | `Wiresharkfile.zip` | `8e2d9661621cf49a04dc2cb2064161ae` | `monitored.pcapng` |
+
+---
+
+## OVERVIEW
+
+PCAP-CRACKER is a Python-based wireless network analysis project designed to examine IEEE 802.11 packet captures generated using Wireshark.
+
+The project explores wireless network security, WEP encryption weaknesses and packet-level analysis.
+
+The analysis workflow examines:
+
+- Service Set Identifier (SSID) information
+- Wireless security configuration
+- WEP encryption weaknesses in authorised test captures
+- Captured network traffic and packet information
+- Export and examination of network artefacts in controlled environments
+
+### BONUS FEATURES
+
+Additional functionality includes automated analysis and reporting of selected network artefacts for authorised forensic investigation.
+
+---
+
+## CONSOLE DISPLAY
+
+![PCAP Cracker Console Screenshot](picture1.png)
+
+---
+
+## LEGAL DISCLAIMER
+
+### AUTHORISED SECURITY TESTING
+
+This software is intended exclusively for educational purposes, authorised penetration testing and wireless network security research.
+
+Only analyse network captures and data that you own or have explicit permission to examine.
+
+The extraction or disclosure of credentials and other sensitive information without authorisation may constitute a criminal offence.
+
+The developer accepts no responsibility for unauthorised use or misuse of this software.
